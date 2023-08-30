@@ -166,7 +166,7 @@ def load_assets_from_csv():
                 st.session_state[asset_type][dict['identifier']]=dict
             print(df.columns)
             
-
+# STREAMLIT SECTION
 # sidebar stuff
 st.sidebar.header('State Management')
 st.sidebar.header('Settings')
